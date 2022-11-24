@@ -1,7 +1,7 @@
 # Garlic To Onion / Libs
 
 
-from banner import banner
+from Banner import banner
 
 
 red = '\033[91m'
