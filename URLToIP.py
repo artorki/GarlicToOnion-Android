@@ -7,12 +7,15 @@ from time import sleep
 
 from banner import banner
 
+
 white , cyan , green , yellow , red = "\033[0;37m" , "\033[96m" , "\033[92m" , "\033[93m" , "\033[91m"
 
 
-def url_ip () :
+def url_ip() :
+
+    while True :
     
-    banner ()
+    banner()
     
     sleep (0.05)
     print (white , " •–(Reverse IP)––––––––– \n")
@@ -26,7 +29,7 @@ def url_ip () :
     url = input (" >>> ").lower ()
         
     if url == "0" :
-        import Run
+        break
 
         
     try :
@@ -37,6 +40,7 @@ def url_ip () :
         
 
     except :
+
         print (red , "\n Error")
 
 
