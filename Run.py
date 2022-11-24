@@ -1,4 +1,4 @@
-# @artorki
+# artorki
 
 
 from time import sleep
