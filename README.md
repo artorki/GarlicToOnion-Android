@@ -28,6 +28,11 @@ print ("[05] Whois")
 5. Display complete site information
 
 
+## Screenshot
+
+![Screenshot_GarlicToOnion](https://user-images.githubusercontent.com/108486211/203858512-247c172c-ad5f-4b81-a4a1-928ecd7806a2.jpg)
+
+
 ## Installation
 
 https://github.com/artorki/GarlicToOnion-Android.git
