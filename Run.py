@@ -3,8 +3,7 @@
 
 from time import sleep
 
-from banner import banner
-import connection
+from Banner import banner
 import libs
 
 
