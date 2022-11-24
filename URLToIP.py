@@ -5,7 +5,7 @@ import socket
 from os import system
 from time import sleep
 
-from banner import banner
+from Banner import banner
 
 
 white , cyan , green , yellow , red = "\033[0;37m" , "\033[96m" , "\033[92m" , "\033[93m" , "\033[91m"
