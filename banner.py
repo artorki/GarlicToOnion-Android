@@ -1,12 +1,39 @@
 from time import sleep
-from os import system
+import os , time , requests
 
 
-cyan = '\033[96m'
+cyan , red = "\033[96m" , "\033[91m"
 
 
-def banner () :
-    system ("clear")
+def banner() :
+
+
+    num = 10
+
+    while True :
+   
+        try :
+
+            requests.get ('http://google.com')
+            break
+        
+        except :
+
+            if num == -1 :
+                print()
+                exit ()
+            
+            os.system ('clear')
+        
+            print (red , '[!] No Network Connection')
+            print (' [!] Another {} seconds closes'.format (num))
+        
+        num = num-1
+        time.sleep (0.95)
+
+
+    os.system ("clear")
+
     sleep (0.05)
     print (cyan , """
  ______________________________________________________________________
