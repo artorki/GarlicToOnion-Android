@@ -1,3 +1,6 @@
+# Garlic To Onion / Banner
+
+
 from time import sleep
 import os , time , requests
 
