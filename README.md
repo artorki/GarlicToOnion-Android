@@ -6,6 +6,11 @@ Mini Data Collection Tool - Written in Python
 Mobile Versions
 
 
+## Screenshot
+
+![Screenshot_GarlicToOnion](https://user-images.githubusercontent.com/108486211/203858512-247c172c-ad5f-4b81-a4a1-928ecd7806a2.jpg)
+
+
 ## Menu
 ```python
 print ("–•[HOME]•————————————————————————————————————————")
@@ -26,11 +31,6 @@ print ("[05] Whois")
 3. Display full IP information
 4. Scan the open ports of the site
 5. Display complete site information
-
-
-## Screenshot
-
-![Screenshot_GarlicToOnion](https://user-images.githubusercontent.com/108486211/203858512-247c172c-ad5f-4b81-a4a1-928ecd7806a2.jpg)
 
 
 ## Installation
